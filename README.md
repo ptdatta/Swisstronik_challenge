@@ -26,7 +26,7 @@ To Deploy the contract
  yarn hardhat deploy --network swisstronik
 ```
 
-Output
+Expected Output
 ```dotnetcli
 Nothing to compile
 MyToken contract deployed to 0xd9f4734f4A69114a720240a0D024710e6accB871
@@ -39,7 +39,7 @@ Done in 9.12s.
 yarn mint
 ``````
 
-Output
+Expected Output
 ```dotnetcli
 --------------------------------------------------------
 Avaliable Accounts: 
@@ -58,7 +58,7 @@ Minting 120 tokens
 yarn burn
 ``````
 
-Output
+Expected Output
 ```dotnetcli
 --------------------------------------------------------
 Avaliable Accounts: 
@@ -77,7 +77,7 @@ Burning 10 tokens from 0x4Bd173f33cC6Db62f95E2bDBaF6d5723c179a668
 yarn transfer
 ``````
 
-Output
+Expected Output
 ```dotnetcli
 --------------------------------------------------------
 Avaliable Accounts: 
@@ -97,7 +97,7 @@ Tokens transfered
 yarn balanceof
 ``````
 
-Output
+Expected Output
 ```dotnetcli
 --------------------------------------------------------
 Avaliable Accounts: 
@@ -115,7 +115,7 @@ Balance:  10n
 yarn supply
 ``````
 
-Output
+Expected Output
 ```dotnetcli
 --------------------------------------------------------
 Fetching total Supply...
