@@ -25,7 +25,7 @@ const main = async () => {
   const toAccount = prompt("Enter to account address: ");
   const signer = fromAccount === signers[0].address ? signers[0] : signers[1];
   const amount = parseInt(prompt("Enter Token amount to transfer: "));
-  const contractAddress = "0xD72731016b8A0F5dee3c1a76e9EaB99263e87F5E";
+  const contractAddress = "0xd9f4734f4A69114a720240a0D024710e6accB871";
   const contractFactory = await hre.ethers.getContractFactory("MyToken");
   const functionName = "transferWithApproval";
   const functionArgs = [toAccount, amount];

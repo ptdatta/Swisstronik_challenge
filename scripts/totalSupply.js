@@ -20,7 +20,7 @@ const sendShieldedQuery = async (provider, destination, data) => {
 
 const main = async () => {
   console.log("--------------------------------------------------------");
-  const contractAddress = "0xD72731016b8A0F5dee3c1a76e9EaB99263e87F5E";
+  const contractAddress = "0xd9f4734f4A69114a720240a0D024710e6accB871";
   const signers = await hre.ethers.getSigners();
   const contractFactory = await hre.ethers.getContractFactory("MyToken");
   const contract = contractFactory.attach(contractAddress);
